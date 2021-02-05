@@ -194,7 +194,7 @@ Route::get('ubicaciones', 'Sirnec\UbicacionesController@index')->name('ubicacion
 Route::post('ubicaciones_Guardar', 'Sirnec\UbicacionesController@store')->name('ubicaciones_Guardar')->middleware('administrador');
 Route::delete('ubicacion/{id}', 'Sirnec\UbicacionesController@eliminar')->name('ubicacion_eliminar')->middleware('administrador');
 
-//Route::delete('ubicacion/{id}', 'Sirnec\UbicacionesController@eliminar')->name('ubicacion_eliminar')->middleware('administrador');
+/////Route::delete('ubicacion/{id}', 'Sirnec\UbicacionesController@eliminar')->name('ubicacion_eliminar')->middleware('administrador');
 
 
 
