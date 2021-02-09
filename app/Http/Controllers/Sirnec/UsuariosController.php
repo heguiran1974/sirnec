@@ -25,6 +25,7 @@ class UsuariosController extends Controller
         if(session('error_message')){ Alert::error('Error!', session('error_message')); }
 
         return view('sirnec.home');
+        
     }
 
     public function index()
